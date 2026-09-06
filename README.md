@@ -1,6 +1,6 @@
-# First look
+# chess
 
-A coaching report built from one player's online chess games: blunder rate by phase and by clock,
-wins thrown away, a hand-read of the last twenty games, and an eight-week plan.
+Chess coaching reports, one directory per date, published with GitHub Pages.
 
-It is a single static page: open `index.html`, or read it on GitHub Pages.
+- `6sep2026/` — First look: blunder rate by phase and by clock, wins thrown away, a hand-read of the
+  last twenty games, and an eight-week plan.
