@@ -53,6 +53,8 @@
 <p><b>The good news.</b> Both of these are habits, not talent. The 1400 target is realistic in rapid, and rapid is where I want you playing. You have played 1,550 blitz games since January 2025 and your blitz rating went down. More of the same will not work.</p>
 </div>
 
+<h2>How this was made</h2>
+<p>All 3,244 games were downloaded through the Lichess and chess.com public APIs into a local SQLite database. Every rated blitz and rapid game (2,818 of them) was then replayed and evaluated move by move: with Lichess's own server analysis where it existed, otherwise with Stockfish 17 at depth 14 running locally. A blunder is a move that worsens the evaluation by two pawns or more, and each one is classified by what the engine's best reply would have punished. Clock figures come from the per-move clock times stored in the game records. The tables below are computed straight from that database. The reading of the last twenty games, the verdict and the plan were written by an AI coaching assistant working from those games and that analysis; they are opinions, to be tested over the next eight weeks.</p>
 <h2>Where you are</h2>
 <div class="tiles">
   <div class="tile"><div class="n">986</div><div class="l">blitz, 2,197 games (peak 1322 in 2018)</div></div>
